@@ -4,11 +4,10 @@ html {
 
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    color: #373A3C;
 }
 
 /* NAVBAR */
-.bg-nav-footer {
+.bg-nav {
     background-color: transparent !important;
     opacity: 1;
 }
