@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVBAR */
@@ -13,104 +13,24 @@ body {
 }
 
 .h1-custom {
+    /*
     font-family: 'Oswald', sans-serif;
+    font: normal normal bold 40px/42px Oswald;
+*/
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
-    font: normal normal bold 40px/42px Oswald;
+    text-align: center;  
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 
-/* HERO SECTION */
-#hero-section {
-    background-image: url(../img/bg-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    height: 100vh;
-    position: relative;
-}
-
-#hero-section div {
-    position: absolute;
-    top: 185px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.hero-line {
-    width: 260px;
-}
-
-#hero-section h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 72px;
-}
-
-#hero-section h1:first-child {
-    font-weight: 200;
-}
-
-#hero-section h1:last-child {
-    font-weight: 900;
-}
-
-
-/* DESCRIPTION SECTION */
-#sobremi {
-    color: #373A3C;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 2.5;
-}
-
-#sobremi h4 {
-    font-size: 25px;
-}
-
-/* EXPERIENCE SECTION */
-#experiencia div h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 52px;
-}
-
-#experiencia i {
-    color: #660066;
-}
-
-#experiencia div:last-child article h4:first-child {
-    font-family: 'Oswald', sans-serif;
-}
-
-#experiencia div:last-child article h4:last-child {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
-
-
-/* JOBS SECTION */
-#trabajos {
-    background-color: #660066;
-    font-family: 'Oswald', sans-serif;
-}
-
-#trabajos h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 52px;
-}
 
 /* CONTACTO  */
 #contacto {
     font-family: 'Open Sans', sans-serif;
     line-height: 2.5;
     font-size: 22px;
-}
-
-#contacto h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 52px;
 }
 
 /* FOOTER  */
@@ -160,21 +80,4 @@ body {
     color: #373A3C;
     opacity: 1;
     list-style-type: none;
-}
-
-.contacto-text-custom {
-    text-align: center;
-    font: normal normal normal 30px/36px Open Sans;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.contacto-logo-custom {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font: normal normal normal 30px/36px Oswald;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
 }
